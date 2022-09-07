@@ -1,0 +1,101 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Lexend Peta', sans-serif;
+}
+
+body {
+    background-color: #E1E2E3;
+    padding-top: 100px;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    margin-bottom: 40px;
+}
+
+header h1{
+    font-size: 24px;
+    font-weight: bolder;
+    margin-left: 15px;
+}
+
+header img {
+    height: 30px;
+    margin: 5px 0px 0px 16px;    
+}
+
+.container {
+    background-color: #fff9f9;
+    max-width: 960px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+form {
+    display: flex;
+    max-width: 860px;
+    width: 100%;
+    margin-left: 15px;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+form input {
+    font-size: 12px;
+    background-color: #FFF;
+    border: 1px solid black;
+    padding: 8px;
+    justify-content: space-between;
+}
+
+#btn-adicionar{
+    display: inline;
+    background-color: #2184e7;
+    color: #FFF;
+    font-size: 15px;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+    padding: 8px;
+    border-radius: 3px;
+}
+
+#btn-limpar{
+    display: inline;
+    background-color: #c41b1b;
+    color: #FFF;
+    font-size: 15px;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+    padding: 8px;
+    border-radius: 3px;
+}
+
+table {
+    padding: 16px;
+    width: 100%;
+}
+
+table th{
+    border-bottom: 2px solid black;
+    padding: 16px;
+    font-size: 15px;
+    font-weight: bold;
+    
+}
+
+table td {
+padding: 16px 0px;
+text-align: center;
+font-size: 12px;
+border: 1px solid rgba(0, 0, 0, 0.3);
+}
+
+
+table thead {
+    margin-bottom: 38px;
+}
